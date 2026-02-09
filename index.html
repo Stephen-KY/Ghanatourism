@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghana Tourism - Explore Beautiful Destinations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Ghana Tourism</h2>
+            </div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="castles.html">Castles</a></li>
+                <li><a href="national-parks.html">National Parks</a></li>
+                <li><a href="beaches.html">Beaches</a></li>
+                <li><a href="villages.html">Villages</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Ghana's Hidden Treasures</h1>
+            <p>Experience the warmth, culture, and natural beauty of West Africa</p>
+            <button class="btn btn-primary" onclick="document.querySelector('.destinations').scrollIntoView({behavior: 'smooth'})">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Destinations Preview -->
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <div class="card-image"><img src="/images/Castle ghana.webp" alt="Historic Castles" height="300px" ></div>
+                <br><br><br>
+                <h3>Historic Castles</h3>
+                <p>Explore Cape Coast and Elmina Castles - UNESCO World Heritage Sites with deep historical significance.</p>
+                <a href="castles.html" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="destination-card">
+                <div class="card-image"><img src="/images/park1.jpg" alt="National Parks" height="245px"></div>
+                <br>
+                <h3>National Parks</h3>
+                <p>Safari through Mole and Kakum National Parks to see diverse wildlife and stunning landscapes.</p>
+                <a href="national-parks.html" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="destination-card">
+                <div class="card-image"><img src="/images/beach1.jpg" alt="Golden Beaches" height="300px"></div>
+                <br><br><br>
+                <h3>Golden Beaches</h3>
+                <p>Relax on beautiful beaches in Accra, Cape Coast, and other coastal destinations.</p>
+                <a href="beaches.html" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="destination-card">
+                <div class="card-image"><img src="/images/village1.jpg" alt="Traditional Villages" height="245px"></div>
+                <br>
+                <h3>Traditional Villages</h3>
+                <p>Visit Nzulezo and other villages to experience authentic Ghanaian culture and traditions.</p>
+                <a href="villages.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>Why Visit Ghana?</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>The Gateway to West Africa</h3>
+                <p>Ghana is known as "The Gateway to West Africa" and is one of the most stable and welcoming countries in the region. With its rich cultural heritage, pristine beaches, abundant wildlife, and historical significance, Ghana offers unforgettable experiences for every type of traveler.</p>
+                <ul>
+                    <li>✓ Year-round warm weather</li>
+                    <li>✓ Rich African culture and traditions</li>
+                    <li>✓ UNESCO World Heritage Sites</li>
+                    <li>✓ Diverse wildlife and nature</li>
+                    <li>✓ Welcoming and friendly locals</li>
+                </ul>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <h4>5+</h4>
+                    <p>Major Destinations</p>
+                </div>
+                <div class="stat">
+                    <h4>365</h4>
+                    <p>Days Sunshine</p>
+                </div>
+                <div class="stat">
+                    <h4>100%</h4>
+                    <p>Adventure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Ghana Tourism. All rights reserved.</p>
+            <p>Discover the beauty of Ghana today!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
